@@ -21,7 +21,6 @@ export default function Options({optionType}) {
         return <AlertBanner error={error} />;
     }
 
-    // TODO: replace 'null' with ToppingOptions when available
     const ItemComponent = optionType === "scoops" ? ScoopOption : ToppingOption;
 
     const optionItems = items.map((item) => (
