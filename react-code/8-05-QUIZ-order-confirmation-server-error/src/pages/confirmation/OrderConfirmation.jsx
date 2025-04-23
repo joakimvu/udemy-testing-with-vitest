@@ -11,7 +11,7 @@ export default function OrderConfirmation({ setOrderPhase }) {
 
   useEffect(() => {
     axios
-      // in a real app we would get order details from context
+      // in a real app we would get order details from contexts
       // and send with POST
       .post(`http://localhost:3030/order`)
       .then((response) => {

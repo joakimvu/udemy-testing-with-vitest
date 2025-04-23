@@ -11,7 +11,7 @@ export default function SummaryForm({ setOrderPhase }) {
     event.preventDefault();
 
     // pass along to the next phase.
-    // The next page will handle submitting order from context.
+    // The next page will handle submitting order from contexts.
     setOrderPhase("completed");
   }
 
